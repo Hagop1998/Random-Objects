@@ -1,0 +1,97 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 15px;
+}
+
+.card {
+  width: 200px;
+  border: none;
+  background-color: white;
+  padding: 10px;
+}
+
+.card-text {
+  padding-top: 10px;
+}
+
+.price {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: small;
+  display: block;
+}
+
+.sale-price {
+  list-style-type: none;
+  color: red;
+  font-weight: bold;
+  font-size: small;
+}
+
+.old-price {
+  text-decoration: line-through;
+  list-style-type: none;
+  color: gray;
+  font-weight: bold;
+  font-size: small;
+}
+
+.ion-icon {
+  font-size: small;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-bottom: 20px;
+}
+.grid-containerr {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+/* .gridd {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-bottom: 20px;
+} */
+
+.grid-containerr {
+  row-gap: 10px;
+  padding: 10px;
+}
+
+.img-product {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  transition: all 1s ease;
+}
+
+.img-product:hover {
+  transform: scale(1.1);
+}
+.fa-star {
+  color: #c3c8d9;
+  font-size: 14px !important;
+}
+
+.reviews {
+  font-size: small !important;
+  color: #7f94c6;
+}
